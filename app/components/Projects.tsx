@@ -43,7 +43,7 @@ export default function Projects() {
             <HonestComment comment="I have been coding and building things in my free time since I was 19 years old. 
             I built many things, from automated trading bots, to digital guides, to web apps.
             First thing I ever built was a Python script that automatically notified me when spots opened for fully-booked classes at McGill.
-            The last thing I built is Finterpret Finterpret, a full web app. Try it out and give me some feedback if you have a minute!" />
+            The last thing I built is Finterpret, a full web app. Try it out and give me some feedback if you have a minute!" />
 
           </div>
           
