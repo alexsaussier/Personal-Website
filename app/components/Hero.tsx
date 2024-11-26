@@ -1,4 +1,4 @@
-import { GitlabIcon as GitHub, Linkedin, Mail } from 'lucide-react'
+import { GithubIcon, Linkedin, Mail } from 'lucide-react'
 
 export default function Hero() {
   return (
@@ -8,7 +8,7 @@ export default function Hero() {
         <p className="text-xl mb-6">Product Manager | Indie Hacker | Builder</p>
         <div className="flex justify-center space-x-4 mb-8">
           <a href="https://github.com/alexsaussier" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
-            <GitHub size={24} />
+            <GithubIcon size={24} />
           </a>
           <a href="https://www.linkedin.com/in/alexandre-saussier-171b0b152/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
             <Linkedin size={24} />
