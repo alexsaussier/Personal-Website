@@ -8,18 +8,19 @@ export default function Experience() {
         <h2 className="text-3xl font-bold mb-8 text-center">Work Experience</h2>
         <div className="max-w-3xl mx-auto space-y-12">
           <div>
-            <h3 className="text-xl font-semibold">Founder</h3>
-            <p className="text-gray-600">Battersea Web Design | October 2024 – Present</p>
+          <div className="flex items-baseline justify-between mb-2">
+              <h3 className="text-xl font-semibold">Founder</h3>
+              <AnimatedLink href="https://batterseawebdesign.com">
+                batterseawebdesign.com
+              </AnimatedLink>
+            </div>
+            <p className="text-gray-600 mb-2">Battersea Web Design | 2023 – Present</p>
             <ul className="list-disc list-inside mt-2 space-y-2">
               <li>Founded a web development agency that builds websites for SMEs, mobile apps, and Web App MVPs.</li>
               <li>Manage client relationships and oversee project deliveries.</li>
-              <li>Develop custom solutions tailored to each client's unique needs.</li>
+              <li>Develop custom solutions tailored to each client&apos;s unique needs.</li>
             </ul>
-            <div className="mt-4">
-              <AnimatedLink href="https://batterseawebdesign.com">
-                Battersea Web Design
-              </AnimatedLink>
-            </div>
+            
             <HonestComment comment="I just like to code and build things, so if I can do it for others and get paid for it, why not? Started by building websites for people around me, then I thought I could professionalize this a bit." />
           </div>
           <div>
@@ -39,9 +40,9 @@ export default function Experience() {
             <h3 className="text-xl font-semibold">Business Analyst - Omnia AI, Intelligent Automation</h3>
             <p className="text-gray-600">Deloitte, Montréal, Canada | September 2021 – February 2023</p>
             <ul className="list-disc list-inside mt-2 space-y-2">
-              <li>Worked on 6 client projects within Deloitte Canada's Artificial Intelligence consulting practice.</li>
+              <li>Worked on 6 client projects within Deloitte Canada&apos;s Artificial Intelligence consulting practice.</li>
               <li>Successfully led a team of 2 developers and 2 QA analysts.</li>
-              <li>Led our practice's internal resourcing operations.</li>
+              <li>Led our practice&apos;s internal resourcing operations.</li>
               <li>Participated in various business development activities.</li>
             </ul>
             <HonestComment comment="First job out of school, I was nervous and excited at the same time. 
