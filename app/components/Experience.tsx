@@ -14,7 +14,7 @@ export default function Experience() {
                 batterseawebdesign.com
               </AnimatedLink>
             </div>
-            <p className="text-gray-600 mb-2">Battersea Web Design | 2023 – Present</p>
+            <p className="text-gray-600 mb-2">Battersea Web Design | October 2024 – Present</p>
             <ul className="list-disc list-inside mt-2 space-y-2">
               <li>Founded a web development agency that builds websites for SMEs, mobile apps, and Web App MVPs.</li>
               <li>Manage client relationships and oversee project deliveries.</li>

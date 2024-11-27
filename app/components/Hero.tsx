@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="home" className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-4">Alexandre Saussier</h1>
-        <p className="text-xl mb-6">Product Manager | Indie Hacker | Builder</p>
+        <p className="text-xl mb-6">Product Manager | Builder</p>
         <div className="flex justify-center space-x-4 mb-8">
           <a href="https://github.com/alexsaussier" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
             <GithubIcon size={24} />
