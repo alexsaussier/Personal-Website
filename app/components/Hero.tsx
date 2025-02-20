@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       <div className="absolute bottom-16 text-sm text-gray-500">
-        Last updated: {new Date().toLocaleDateString()}
+        Last updated: {"02/12/2024"}
       </div>
     </section>
   )
