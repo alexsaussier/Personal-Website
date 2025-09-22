@@ -9,7 +9,7 @@ export default function Experience() {
         <div className="max-w-3xl mx-auto space-y-12">
             <div>
               <div className="flex items-baseline justify-between mb-2">
-                <h3 className="text-xl font-semibold">Founder's Associate</h3>
+                <h3 className="text-xl font-semibold">Founder&apos;s Associate</h3>
                 <AnimatedLink href="https://ready.co">
                   ready.co
                 </AnimatedLink>
