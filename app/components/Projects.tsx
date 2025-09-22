@@ -10,9 +10,9 @@ export default function Projects() {
             <div className="bg-gray-50 p-6 rounded-lg shadow-md">
               <div className="flex items-baseline justify-between mb-2">
                 <h3 className="text-xl font-semibold">Finterpret.co</h3>
-                <AnimatedLink href="https://finterpret.co">
-                  finterpret.co
-                </AnimatedLink>
+                <span className="text-gray-400 text-sm italic">
+                  (deprecated)
+                </span>
               </div>
               <p>An AI companion for making better stock market investments.</p>
               <p className="text-sm text-gray-600 mt-2">Stack: Next.js, mongoDB, Vercel, Stripe</p>
@@ -37,13 +37,22 @@ export default function Projects() {
               <p>Automated Twitter accounts powered by chatGPT.</p>
               <p className="text-sm text-gray-600 mt-2">Stack: Python, Twitter API, OpenAI API</p>
             </div>
+            <div className="bg-gray-50 p-6 rounded-lg shadow-md">
+              <div className="flex items-baseline justify-between mb-2">
+                <h3 className="text-xl font-semibold">Battersea Web Design</h3>
+                <AnimatedLink href="https://batterseawebdesign.com">
+                  batterseawebdesign.com
+                </AnimatedLink>
+              </div>
+              <p>A web development agency that builds websites for SMEs, mobile apps, and Web App MVPs.</p>
+              <p className="text-sm text-gray-600 mt-2">Stack: Next.js, React, Node.js, Various CMS</p>
+            </div>
           </div>
 
           <div className="mt-16 max-w-4xl mx-auto">
             <HonestComment comment="I have been coding and building things in my free time since I was 19 years old. 
             I built many things, from automated trading bots, to digital guides, to web apps.
-            First thing I ever built was a Python script that automatically notified me when spots opened for fully-booked classes at McGill.
-            The last thing I built is Finterpret, a full web app. Try it out and give me some feedback if you have a minute!" />
+            First thing I ever built was a Python script that automatically notified me when spots opened for fully-booked classes at McGill." />
 
           </div>
           

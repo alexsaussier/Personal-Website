@@ -7,25 +7,29 @@ export default function Experience() {
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold mb-8 text-center">Work Experience</h2>
         <div className="max-w-3xl mx-auto space-y-12">
-          <div>
-          <div className="flex items-baseline justify-between mb-2">
-              <h3 className="text-xl font-semibold">Founder</h3>
-              <AnimatedLink href="https://batterseawebdesign.com">
-                batterseawebdesign.com
-              </AnimatedLink>
-            </div>
-            <p className="text-gray-600 mb-2">Battersea Web Design | October 2024 – Present</p>
+            <div>
+              <div className="flex items-baseline justify-between mb-2">
+                <h3 className="text-xl font-semibold">Founder's Associate</h3>
+                <AnimatedLink href="https://ready.co">
+                  ready.co
+                </AnimatedLink>
+              </div>
+              <p className="text-gray-600">Ready (formerly Argent), London, United-Kingdom | March 2025 - Present</p>
             <ul className="list-disc list-inside mt-2 space-y-2">
-              <li>Founded a web development agency that builds websites for SMEs, mobile apps, and Web App MVPs.</li>
-              <li>Manage client relationships and oversee project deliveries.</li>
-              <li>Develop custom solutions tailored to each client&apos;s unique needs.</li>
+              <li>Leading special internal projects (e.g. rebranding from Argent to Ready, device security ramp-up).</li>
+              <li>Building internal automation tools and AI agents using Python and Gumloop & Improving operational efficiency throughout teams.</li>
+              <li>Investor & board reporting.</li>
+              <li>GTM Strategy and Market research.</li>
             </ul>
-            
-            <HonestComment comment="I just like to code and build things, so if I can do it for others and get paid for it, why not? Started by building websites for people around me, then I thought I could professionalize this a bit." />
           </div>
           <div>
-            <h3 className="text-xl font-semibold">Product Owner</h3>
-            <p className="text-gray-600">nChain, London, United-Kingdom | June 2023 – Present</p>
+            <div className="flex items-baseline justify-between mb-2">
+              <h3 className="text-xl font-semibold">Product Owner</h3>
+              <AnimatedLink href="https://nchain.com">
+                nchain.com
+              </AnimatedLink>
+            </div>
+            <p className="text-gray-600">nChain, London, United-Kingdom | June 2023 – December 2024</p>
             <ul className="list-disc list-inside mt-2 space-y-2">
               <li>Product owner for nChain Certify, a web application to issue digital certificates on blockchain.</li>
               <li>Leading a team of 2 engineers, 1 UX designer and 1 QA.</li>
@@ -37,7 +41,12 @@ export default function Experience() {
             Specifically UTXO-based blockchains. I got assigned responsibility for managing products, and realized how much I loved building things. " />
           </div>
           <div>
-            <h3 className="text-xl font-semibold">Business Analyst - Omnia AI, Intelligent Automation</h3>
+            <div className="flex items-baseline justify-between mb-2">
+              <h3 className="text-xl font-semibold">Business Analyst - Omnia AI, Intelligent Automation</h3>
+              <AnimatedLink href="https://deloitte.ca">
+                deloitte.ca
+              </AnimatedLink>
+            </div>
             <p className="text-gray-600">Deloitte, Montréal, Canada | September 2021 – February 2023</p>
             <ul className="list-disc list-inside mt-2 space-y-2">
               <li>Worked on 6 client projects within Deloitte Canada&apos;s Artificial Intelligence consulting practice.</li>

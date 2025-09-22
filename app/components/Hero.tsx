@@ -18,7 +18,8 @@ export default function Hero() {
           </a>
         </div>
         <p className="max-w-2xl mx-auto text-gray-600">
-          Product Owner with experience in blockchain technology and AI consulting. 
+          Ops & Product professional with experience in blockchain/crypto and AI consulting. 
+          Bitcoin & Automation Maxi. 
           Passionate about new technologies, building products and coding.
         </p>
       </div>
